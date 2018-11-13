@@ -2,20 +2,19 @@
     width: 1000px;
     margin: auto;
 }
-#logo{
-    float: left;
-}
+
 .nav{
     float: left;
     background-color: #f6d0c1;
     width: 100%;
+    padding-left: 10px;
 }
 .nav ul{
     list-style: none;
     display: inline-block;
     margin: 0;
     padding: 0;
-    padding-bottom: 27.5px;
+    padding-bottom: 32.5px;
     width: 80%;
 }
 .nav li{
