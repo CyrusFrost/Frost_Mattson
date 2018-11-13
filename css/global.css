@@ -2,11 +2,14 @@
     width: 1000px;
     margin: auto;
 }
-
+.nav img{
+    width: 16%;
+    height: 16%;
+}
 .nav{
     float: left;
     background-color: #f6d0c1;
-    width: 100%;
+    width: 99%;
     padding-left: 10px;
 }
 .nav ul{
@@ -15,24 +18,38 @@
     margin: 0;
     padding: 0;
     padding-bottom: 32.5px;
-    width: 80%;
+    width: 55%;
 }
 .nav li{
     float: left;
 }
-.nav a{
+.nav li a{
     text-decoration: none;
     padding: 31px;
     border: 2px solid #39156e;
     border-width: 2px 0px 2px 2px;
     color: #39156e;
 }
-.nav a:hover{
+.nav li a:hover{
+    background-color: #e06c58;
+}
+.nav .currentpage a{
     background-color: #e06c58;
 }
 #endnav a{
     border: 2px solid #39156e;
     border-width: 2px 2px 2px 2px;
+}
+.hours{
+    float:right;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+}
+.hours h2{
+    padding: 0;
+    margin: 0;
 }
 .twothird{
     width: 66%;
