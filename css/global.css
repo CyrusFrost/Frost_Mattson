@@ -15,8 +15,8 @@
 .nav ul{
     list-style: none;
     display: inline-block;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     padding-bottom: 32.5px;
     width: 55%;
 }
@@ -43,8 +43,8 @@
 .hours{
     float:right;
     display: inline;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 18%;
 }
 .hours h2{
@@ -52,16 +52,31 @@
     margin: 0;
 }
 .twothird{
-    width: 66%;
+    width: 64%;
     float: left;
+    margin: 3%;
+    margin-left: 0;
+    padding: 1%;
 }
 .onethird{
-    width: 33%;
+    width: 29%;
     float: left;
+    margin: 3%;
+    margin-left:0;
+    padding: 1%;
 }
 .onequarter{
-    width: 25%;
+    width: 21%;
     float: left;
+    margin: 2%;
+    margin-left: 0;
+    padding: 1%;
+}
+.mid .onethird{
+    width: 30%;
+}
+.stop div{
+    margin-right: 0;
 }
 .clear{
     clear: both;
