@@ -38,7 +38,7 @@ body{
 .nav li a{
     text-decoration: none;
     color: #39156e;
-    padding: 1.75em 3.2em 1.75em 3.2em;
+    padding: 1.75em 3em 1.75em 3em;
 }
 .nav li a:hover{
     background-color: #e06c58;
@@ -47,7 +47,7 @@ body{
     background-color: #e06c58;
 }
 #endnav a{
-    border: 0px solid #39156e;
+    
 }
 
 .twothird{
