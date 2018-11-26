@@ -28,7 +28,7 @@ body{
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    padding-bottom: 33px;
+    padding-bottom: 29px;
     width: auto;
     
 }
@@ -40,6 +40,7 @@ body{
     color: #39156e;
     padding: 1.75em 3em 1.75em 3em;
     font-family: 'Noto Sans SC', sans-serif;
+    font-size: 17px;
 
 }
 .nav li a:hover{
