@@ -19,7 +19,7 @@ body{
 .nav img{
     width: 16%;
     height: 16%;
-    padding-right: 6%;
+    padding-right: 4.5%;
     padding-left: 3%;
 }
 
@@ -28,7 +28,7 @@ body{
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    padding-bottom: 29px;
+    padding-bottom: 28.5px;
     width: auto;
     
 }
@@ -41,7 +41,6 @@ body{
     padding: 1.75em 3em 1.75em 3em;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 17px;
-
 }
 .nav li a:hover{
     background-color: #e06c58;
@@ -70,9 +69,15 @@ body{
     margin-left:0;
     margin-bottom: 0;
     padding: 1%;
-    background-color: #bbbbbb;
 
 }
+
+.onethird img{
+    width: 100%;
+    margin: 0;
+    padding-top: 0px;
+}
+
 .onequarter{
     width: 21%;
     float: left;
@@ -100,4 +105,6 @@ body{
     padding-bottom: 3%;
     padding-top: 3%;
     text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 13px;
 }
