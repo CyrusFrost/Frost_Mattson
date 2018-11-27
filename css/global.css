@@ -60,6 +60,7 @@ body{
     padding: 1%;
     margin-bottom: 0;
     background-color: #bbbbbb;
+
 }
 
 .onethird{
@@ -69,13 +70,23 @@ body{
     margin-left:0;
     margin-bottom: 0;
     padding: 1%;
-
+    background-color: #bbbbbb;
 }
 
-.onethird img{
+.onethirdimg{
+    width: 31%;
+    float: left;
+    margin: 3%;
+    margin-left:0;
+    margin-bottom: 0;
+}
+
+
+.onethirdimg img{
     width: 100%;
-    margin: 0;
-    padding-top: 0px;
+    float: left;
+    margin:0;
+    margin-bottom: 0;
 }
 
 .onequarter{
@@ -85,7 +96,6 @@ body{
     margin-left: 0;
     margin-bottom: 0;
     padding: 1%;
-    background-color: #bbbbbb;
 }
 .mid .onethird{
     width: 30%;

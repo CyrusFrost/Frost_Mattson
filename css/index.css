@@ -1,12 +1,11 @@
 #content{
     
 }
-#content img{
+
+.mainimg{
     padding-top: 3%;
-    width: 100%;
-    height: 500px;
 }
 
 .onethird{
-    background-color: #bbbbbb;
+    
 }
