@@ -8,6 +8,14 @@
         SpaceCube Architects Project History
         </title>
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+        
+        <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	   <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
+
+	   <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	
+	   <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+        
     </head>
     
     <body> 
@@ -22,13 +30,80 @@
                 </ul>
             </div>
             <div class="clear"></div>
-            <div id="content">
+            <div id="content">  
+            <div id="gallery" style="display:none;">
+            
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image1th.jpg"
+                 data-image="../images/image1.jpg"
+                 style="display:none">
                 
-                <div class="clear"></div>
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image2th.jpg"
+                 data-image="../images/image2.jpg"
+                 style="display:none">
+            
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image3th.jpg"
+                 data-image="../images/image3.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image4th.jpg"
+                 data-image="../images/image4.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image5th.jpg"
+                 data-image="../images/image5.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image1th.jpg"
+                 data-image="../images/image1.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image2th.jpg"
+                 data-image="../images/image2.jpg"
+                 style="display:none">
+            
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image3th.jpg"
+                 data-image="../images/image3.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image4th.jpg"
+                 data-image="../images/image4.jpg"
+                 style="display:none">
+                
+            <img alt="Past SpaceCube Projects"
+                 src="../images/image5th.jpg"
+                 data-image="../images/image5.jpg"
+                 style="display:none">
+            
+            </div>
+            
+            <div class="clear"></div>
             </div>
             <div class="footer">
                 Copyright SpaceCube Architects, 2018
             </div>
         </div>
-    </body>
+
+        <script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery({
+				tiles_type:"justified"
+			});
+
+		});
+		
+	</script>
+        
+</body>    
 </html>
+
