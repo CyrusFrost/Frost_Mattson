@@ -107,6 +107,12 @@ body{
 .clear{
     clear: both;
 }
+
+
+h2{
+    line-height: .5;
+}
+
 .footer {
     width: 100%;
     background-color: #000000;
