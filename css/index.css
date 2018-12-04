@@ -1,5 +1,4 @@
 #content{
-    
 }
 
 .mainimg{
@@ -8,4 +7,28 @@
 
 .onethird{
     
+}
+
+.slideshow-container{
+    padding-top: 3%;
+    margin: 0%;
+    margin-bottom: 0%;
+    height: 332px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
