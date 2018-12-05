@@ -5,3 +5,15 @@
 #gallery{
     padding-top: 3%;
 }
+#floatL{
+    float:left;
+    width: 100%;
+}
+#galleryBanner{
+    width: 98%;
+    float: left;
+    margin-top: 3%;
+    padding: 1%;
+    background-color: #cccccc;
+    font-family: 'Noto Sans SC', sans-serif;
+}
