@@ -1,13 +1,34 @@
-#content{
-    
-}
-h2{
+.threeEmployee h2,
+.fourEmployee h2,
+.rowEmployee h2{
     float:left;
     margin: 0;
     margin-top: 3%;
-    margin-right: 2%;
+    margin-right: 25px;
     padding: 3%;
     background-color: #eeeeee;
+}
+#content .twothird{
+    background-color: #ffffff;
+}
+#contact ul{
+    list-style: none;
+    padding: 0;
+}
+#contact li{
+    float: left;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0px;
+    width: 144px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 2%;
+    padding: 2%;
+    height: 100px;
+}
+#contact{
+    width: 100%;
 }
 .threeEmployee h2{
     width: 355px;
@@ -16,19 +37,20 @@ h2{
     width: 500px;
 }
 .rowEmployee h2{
-    width: 935px;
+    width: 940px;
 }
 .rowEnd h2,
-.rowEnd .employee{
+.rowEnd .employee,
+#contact .rowEnd li{
     margin-right: 0px;
 }
 .employee{
     float: left;
     height: 225px;
-    width: 105px;
+    width: 104px;
     padding: 10px;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 22px;
     background-color: #eeeeee;
     font-family: 'Noto Sans SC', sans-serif;
 }
