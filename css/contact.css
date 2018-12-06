@@ -2,19 +2,34 @@
     
 }
 h2{
-    margin: 3%;
-    margin-bottom: 0;
+    float:left;
+    margin: 0;
+    margin-top: 3%;
+    margin-right: 2%;
     padding: 3%;
-    background-color: #bbbbbb;
+    background-color: #eeeeee;
+}
+.threeEmployee h2{
+    width: 355px;
+}
+.fourEmployee h2{
+    width: 500px;
+}
+.rowEmployee h2{
+    width: 935px;
+}
+.rowEnd h2,
+.rowEnd .employee{
+    margin-right: 0px;
 }
 .employee{
     float: left;
-    height: 350px;
-    width: 19%;
-    padding: 1%;
-    margin-top: 3%;
-    margin-right: 3%;
-    background-color: #dddddd;
+    height: 225px;
+    width: 105px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #eeeeee;
     font-family: 'Noto Sans SC', sans-serif;
 }
 .employee img{
@@ -24,25 +39,5 @@ h2{
     font-size: 10px;
 }
 .employee p{
-    font-size: 14px;
-}
-.employeeLeft{
-    float: left;
-    height: 350px;
-    margin-left: 3%;
-    width: 20%;
-    padding: 1%;
-    margin-top: 3%;
-    margin-right: 3%;
-    background-color: #dddddd;
-    font-family: 'Noto Sans SC', sans-serif;
-}
-.employeeLeft img{
-    width: 100%;
-}
-.employeeLeft h2{
-    font-size: 10px;
-}
-.employeeLeft p{
     font-size: 14px;
 }
